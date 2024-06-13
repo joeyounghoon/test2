@@ -8,7 +8,7 @@ st.sidebar.title('OptimalBotAI')
 st.sidebar.markdown('---')  # 선픽
 
 # 선픽 이후의 추가 항목 예제
-if st.sidebar.button('선픽'):
-    st.sidebar.write("You selected Option 1")
-if st.sidebar.button('후픽'):
-    st.sidebar.write("You selected Option 2")
+st.sidebar.page_link('pages/선픽.py')
+   
+st.sidebar.page_link('pages/후픽.py')
+  
